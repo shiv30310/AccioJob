@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40%;
+    padding: 3cqmax 6rem;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="number"] {
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+}
+
+input[type="number"]::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    padding: .2em 1.4em;
+    margin: 5px 7px;
+    font-size: larger;
+    text-align: justify;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.msg {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
